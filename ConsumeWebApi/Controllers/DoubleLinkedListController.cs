@@ -72,7 +72,7 @@ namespace ConsumeWebApi.Controllers
 
                 while (ptr1.Next != lptr)
                 {
-                    if (ptr1.Data1 > ptr1.Next.Data1)
+                    if (ptr1.Data1 >= ptr1.Next.Data1)
                     {
                         double d = ptr1.Data1;
                         string s = ptr1.Data;
